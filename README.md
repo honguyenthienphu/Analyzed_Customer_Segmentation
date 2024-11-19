@@ -38,3 +38,19 @@
     </code></pre>  
    </div>
 </ul>
+<p><b>1.2 Calculate R, F, M Scores:</b></p>
+<ul>
+  <li>Recency (R): The number of days since the customer’s last purchase until 31/12/2011. Calculate by taking the difference between 31/12/2011 and the customer’s last purchase date</li>
+  <li>Frequency (F): The number of transactions the customer made during the year 2011</li>
+  <li>Monetary (M): The total amount spent by the customer, calculated as: Quantity * UnitPrice</li>
+</ul>
+<p><b>1.3 Score R, F, M, and Customer Segmentation: </b>Segment customers into 5 groups using quintiles</p>
+<ul>
+  <li>Score 1 is the lowest (customers with few purchases and low spending), and score 5 is the highest</li>
+  <li>Calculate quintiles for each metric using pd.qcut to assign scores for R, F, and M</li>
+</ul>
+<p><b>1.4 Visualize and Analyze</b></p>
+<ul>
+  <li>Use a Histogram to show the distribution of R, F, M scores: sns.distplot</li>
+  <li>Use visualizations like tree maps to display the number of customers in each segment (11 segments): squarify.plot</li>
+</ul>
