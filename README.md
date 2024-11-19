@@ -1,4 +1,4 @@
-# [Python] Analyze Customer Segmentation of Sprocket Central
+# [Python] Analyze Customer Segmentation of Sprocket Central - RFM Analyze
 <h2>I. Introduction</h1>
 <p>SuperStore is a global retail company, so it has a large customer base. On the occasion of Christmas and New Year, the Marketing department plans to run marketing campaigns to show appreciation to customers who have supported the company over time</p>
 <p>The Marketing department has not yet segmented this year’s customers because the dataset is too large to process manually as in previous years. Therefore, they have asked the Data Analytics team to assist in implementing a segmentation model for classifying each customer</p>
