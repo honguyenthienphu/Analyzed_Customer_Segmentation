@@ -123,7 +123,7 @@
 <b>Insight:</b>
 <p>The tree map chart provides a clear visualization of the distribution of customer segments:</p>
 <ul>
-  <li>Both "Champions" and "Hibernatin" Customers share the approximately equal quantity: 828 and 811</li>
+  <li>Both "Champions" and "Hibernating" Customers share the approximately equal quantity: 828 and 811</li>
   <li>Besides, the New customer and Potential Loyalists also have a large quantiy for Marketing team to focus</li>
   <li>The Markeing team can base in this chart to finalize the strategy for the Customer</li>
 </ul>
